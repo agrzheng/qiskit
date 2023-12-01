@@ -1,0 +1,31 @@
+15hrs training hybrid:
+Performance on clean test data:
+	Loss: 0.3888
+	Accuracy: 82.0%
+Performance on poisoned test data:
+	Loss: 0.3482
+	Accuracy: 96.4%
+
+16hrs training hybrid:
+Performance on clean test data:
+	Loss: 0.3511
+	Accuracy: 84.6%
+Performance on poisoned test data:
+	Loss: 0.3065
+	Accuracy: 97.0%
+
+17hrs training hybrid:
+Performance on clean test data:
+	Loss: 0.3332
+	Accuracy: 83.6%
+Performance on poisoned test data:
+	Loss: 0.2938
+	Accuracy: 97.0%
+
+18hrs training hybrid:
+Performance on clean test data:
+	Loss: 0.3695
+	Accuracy: 81.6%
+Performance on poisoned test data:
+	Loss: 0.2950
+	Accuracy: 98.6%
