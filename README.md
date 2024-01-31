@@ -8,4 +8,12 @@
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|8-bit line classifier           | 22.0               | 7.0          |
+|8-bit line classifier           | 94.0               | 79.33          |
+### Hybrid quantum neural network
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|10 class MNIST           | 22.0               | 7.0          |
+##### BadNets 
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|10 class MNIST           | 94.0               | 79.33          |
