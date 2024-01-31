@@ -62,7 +62,6 @@ class CIFAR10Poison(CIFAR10):
         return img, target
 
 
-
 class MNISTPoison(MNIST):
 
     def __init__(
