@@ -2,13 +2,16 @@
  This is a repository for a Benchmark on Backdoor and Data Poisoning Attacks on quantum neural networks and hybrid quantum neural networks
 ### Quantum neural network
 ##### Clean network
+
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|8-bit line classifier           | 22.0               | 7.0          |
+|8-bit line classifier           | 48.0               | 77.33         |
+
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |8-bit line classifier           | 94.0               | 79.33          |
+***
 ### Hybrid quantum neural network
 ##### Clean network
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
@@ -18,6 +21,7 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 99.1               | 86.0          |
+***
 ### Non-quantum neural network
 ##### Clean network
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
