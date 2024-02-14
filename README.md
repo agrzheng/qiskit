@@ -17,10 +17,12 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 10.3               | 90.0          |
+|4 class CIFAR10           | 22.9               | 72.2          |
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 99.1               | 86.0          |
+|4 class CIFAR10           | 99.1               | 67.8          |
 ***
 ### Non-quantum neural network
 ##### Clean network
