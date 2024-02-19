@@ -28,7 +28,7 @@
 ##### Clean network
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | 10.1               | 94.5          |
+|10 class MNIST           | 10.1               | 98.5          |
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
