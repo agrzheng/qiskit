@@ -18,11 +18,13 @@
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 10.3               | 90.0          |
 |4 class CIFAR10           | 22.9               | 72.2          |
+|2 class CIFAR10 ResNet           | 22.9               | 72.2          |
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 99.1               | 86.0          |
 |4 class CIFAR10           | 99.2               | 68.9          |
+##### Feature Collision
 ***
 ### Non-quantum neural network
 ##### Clean network
