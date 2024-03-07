@@ -32,7 +32,7 @@
 ##### BitTrojan
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 61               | 68.9          |
+|4 class CIFAR10           | 61               | 66.0          |
 ***
 ### Non-quantum neural network
 ##### Clean network
@@ -48,4 +48,4 @@
 ##### BitTrojan
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 69               | 68.9          |
+|4 class CIFAR10           | 69               | 65.0          |
