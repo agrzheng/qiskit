@@ -46,4 +46,6 @@
 |10 class MNIST           | 99.8               | 97.5          |
 |4 class CIFAR10           | 99.2               | 68.9          |
 ##### BitTrojan
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
 |4 class CIFAR10           | 69               | 68.9          |
