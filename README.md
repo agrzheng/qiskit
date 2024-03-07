@@ -23,7 +23,7 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 99.1               | 86.0          |
-|4 class CIFAR10           | 99.2               | 68.9          |
+|4 class CIFAR10           | 99.2               | 68.2          |
 ##### Feature Collision
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
