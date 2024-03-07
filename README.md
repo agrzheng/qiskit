@@ -48,4 +48,4 @@
 ##### BitTrojan
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 69               | 65.0          |
+|4 class CIFAR10           | 92.5               | 65.0          |
