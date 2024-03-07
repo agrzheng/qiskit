@@ -38,13 +38,13 @@
 ##### Clean network
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | 10.1               | 98.5          |
-|4 class CIFAR10           | 99.2               | 68.9          |
+|10 class MNIST           | x               | 98.5          |
+|4 class CIFAR10           | x               | 68.9          |
 ##### BadNets 
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |10 class MNIST           | 99.8               | 97.5          |
-|4 class CIFAR10           | 99.2               | 68.9          |
+|4 class CIFAR10           | 97.0               | 68.9          |
 ##### BitTrojan
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
