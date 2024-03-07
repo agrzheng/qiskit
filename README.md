@@ -30,6 +30,8 @@
 |4 class CIFAR10           | 99.2               | 68.9          |
 |2 class CIFAR10 ResNet           | 99.2               | 66.7          |
 ##### BitTrojan
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
 |4 class CIFAR10           | 61               | 68.9          |
 ***
 ### Non-quantum neural network
