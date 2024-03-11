@@ -19,16 +19,11 @@
 **Note**: Hybrid networks may require a very long time to compute.  
 The results will be shown below.
 ### Quantum neural network
-##### Clean network
-
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+##### 8-bit line classifier
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|8-bit line classifier           | x               |90.67         |
-
-##### BadNets 
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|8-bit line classifier           | 88.0               | 83.33          |
+|Clean Network           | x               |90.67         |
+|BadNets           | 88.0               | 83.33          |
 ***
 
 ### Hybrid quantum neural network
@@ -53,31 +48,24 @@ The results will be shown below.
 |Feature Collison           | 99.2               | 66.7          |
 ***
 ### Non-quantum neural network
-##### Clean network
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+
+##### MNIST
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | x               | 98.5          |
-|4 class CIFAR10           | x               | 71.0          |
-|2 class CIFAR10 ResNet           | x               |94.9           |
-##### BadNets 
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+|Clean Network           | x               | 98.5          |
+|BadNets           | 99.8               | 97.5          |
+##### 4 class CIFAR10
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | 99.8               | 97.5          |
-|4 class CIFAR10           | 97.0               | 70.5          |
-##### Feature Collision
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+|Clean Network           | x               | 71.0          |
+|BadNets           | 97.0               | 70.5          |
+|Feature Collison           | 10               | 67.8          |
+|Bit Trojan           | 93.5               | 65.0          |
+|LIRA           | 80.25               | 41.5          |
+|Sleeper-Agents           | 27.2               | 75.8         |
+##### 2 class ResNet CIFAR10
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 10               | 67.8          |
-|2 class CIFAR10 ResNet           | 10               | 70.7          |
-##### BitTrojan
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 93.5               | 65.0          |
-##### LIRA
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 80.25               | 41.5          |
-##### Sleeper Agents
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 27.2               | 75.8         |
+|Clean Network           | x               |94.9           |
+|Feature Collison           | 10               | 70.7          |
+***
