@@ -58,7 +58,7 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |4 class CIFAR10           | 10               | 67.8          |
-|2 class CIFAR10 ResNet           | 10               | 0.7065          |
+|2 class CIFAR10 ResNet           | 10               | 70.7          |
 ##### BitTrojan
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
