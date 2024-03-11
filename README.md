@@ -1,8 +1,10 @@
 # Quantum neural network(testing and verification)
+ ![Python 3.10.6](https://img.shields.io/badge/python-3.10.6-DodgerBlue.svg?style=plastic)
+ ![Pytorch 2.1.0](https://img.shields.io/badge/pytorch-2.1.0-DodgerBlue.svg?style=plastic)
+ ![torchvision 0.16.0](https://img.shields.io/badge/torchvision-0.16.0-DodgerBlue.svg?style=plastic)
  This is a repository for a Benchmark on Backdoor and Data Poisoning Attacks on quantum neural networks and hybrid quantum neural networks
  The test has been made on 6 types of attacking methods, including pure data poisoning attacks, backdoored data poisoning attacks and non data
  poisoned backdoor attacks. CIFAR10 is reduced to 4 classes to have a better training time as running quantum simulations will require large time.  
- All the codes are based on ![Pytorch 2.1.0](https://img.shields.io/badge/pytorch-2.1.0-DodgerBlue.svg?style=plastic)
  To run the codes qiskit and qiskit-machine-learning is needed by
  ```
  pip install qiskit
