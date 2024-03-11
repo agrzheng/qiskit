@@ -1,5 +1,10 @@
 # Quantum neural network(testing and verification)
  This is a repository for a Benchmark on Backdoor and Data Poisoning Attacks on quantum neural networks and hybrid quantum neural networks
+ The test has been made on 6 types of attacking methods, including pure data poisoning attacks, backdoored data poisoning attacks and non data
+ poisoned backdoor attacks.
+ To run the codes qiskit and qiskit-machine-learning is needed
+ `pip install qiskit`
+ `pip install qiskit_machine_learning`
 ### Quantum neural network
 ##### Clean network
 
