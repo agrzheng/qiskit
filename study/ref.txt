@@ -1,6 +1,0 @@
-1.BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain arXiv:1708.06733
-2.Explaining and Harnessing Adversarial Examples arXiv:1412.6572
-3.Towards Deep Learning Models Resistant to Adversarial Attacks arXiv:1706.06083
-4.Quanvolutional Neural Networks: Powering Image Recognition with Quantum Circuits arXiv:1904.04767
-5.A Quantum Convolutional Neural Network Approach for Object Detection and Classification arXiv:2108.00661
-6.Quantum convolutional neural network for classical data classification arXiv:2307.08204

@@ -1,0 +1,149 @@
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_17:24:47] Train [1] Loss: clean 1.3881 poison 1.3663 total 1.3772 Tri 2.6981
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_17:27:43] Train [1] Loss: clean 1.4088 poison 1.6283 total 1.5185 Tri 2.7042
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_17:30:10] Train [1] Loss: clean 1.3944 poison 1.2879 total 1.3412 Tri 1.3756
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_17:31:25] Train [1] Loss: clean 1.4074 poison 1.2204 total 1.3139 Tri 1.3754
+==========Test result on benign test dataset==========
+[2024-03-10_17:31:25] Top-1 correct / Total: 100/400, Top-1 accuracy: 0.25, Top-3 correct / Total: 346/400, Top-5 accuracy: 0.865 time: 5.50852632522583
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_17:33:18] Train [1] Loss: clean 1.4189 poison 1.7333 total 1.5761 Tri 1.3756
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:19] Top-1 correct / Total: 100/400, Top-1 accuracy: 0.25, Top-3 correct / Total: 300/400, Top-3 accuracy: 0.75 time: 5.445987701416016
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:19] Top-1 correct / Total: 400/400, Top-1 accuracy: 1.0, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 5.445987701416016
+[2024-03-10_17:33:23] Train [2] Loss: clean 1.3777 poison 1.3749 total 1.3763 Tri 1.4199
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:24] Top-1 correct / Total: 100/400, Top-1 accuracy: 0.25, Top-3 correct / Total: 312/400, Top-3 accuracy: 0.78 time: 10.478975057601929
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:24] Top-1 correct / Total: 400/400, Top-1 accuracy: 1.0, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 10.478975057601929
+[2024-03-10_17:33:28] Train [3] Loss: clean 1.3537 poison 1.3187 total 1.3362 Tri 1.4419
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:29] Top-1 correct / Total: 115/400, Top-1 accuracy: 0.2875, Top-3 correct / Total: 322/400, Top-3 accuracy: 0.805 time: 15.13096284866333
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:29] Top-1 correct / Total: 373/400, Top-1 accuracy: 0.9325, Top-3 correct / Total: 382/400, Top-3 accuracy: 0.955, time: 15.131963729858398
+[2024-03-10_17:33:33] Train [4] Loss: clean 1.3166 poison 1.3343 total 1.3255 Tri 1.4141
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:33] Top-1 correct / Total: 132/400, Top-1 accuracy: 0.33, Top-3 correct / Total: 344/400, Top-3 accuracy: 0.86 time: 19.839781045913696
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:33] Top-1 correct / Total: 346/400, Top-1 accuracy: 0.865, Top-3 correct / Total: 375/400, Top-3 accuracy: 0.9375, time: 19.84078073501587
+[2024-03-10_17:33:37] Train [5] Loss: clean 1.2790 poison 1.4660 total 1.3725 Tri 1.4021
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:38] Top-1 correct / Total: 115/400, Top-1 accuracy: 0.2875, Top-3 correct / Total: 349/400, Top-3 accuracy: 0.8725 time: 24.7962429523468
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:38] Top-1 correct / Total: 371/400, Top-1 accuracy: 0.9275, Top-3 correct / Total: 395/400, Top-3 accuracy: 0.9875, time: 24.7962429523468
+[2024-03-10_17:33:43] Train [6] Loss: clean 1.2050 poison 1.4284 total 1.3167 Tri 1.3809
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:45] Top-1 correct / Total: 116/400, Top-1 accuracy: 0.29, Top-3 correct / Total: 362/400, Top-3 accuracy: 0.905 time: 31.244226932525635
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:45] Top-1 correct / Total: 372/400, Top-1 accuracy: 0.93, Top-3 correct / Total: 398/400, Top-3 accuracy: 0.995, time: 31.245226860046387
+[2024-03-10_17:33:50] Train [7] Loss: clean 1.1394 poison 1.5419 total 1.3407 Tri 1.4520
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:51] Top-1 correct / Total: 146/400, Top-1 accuracy: 0.365, Top-3 correct / Total: 368/400, Top-3 accuracy: 0.92 time: 37.62121057510376
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:51] Top-1 correct / Total: 329/400, Top-1 accuracy: 0.8225, Top-3 correct / Total: 393/400, Top-3 accuracy: 0.9825, time: 37.62321138381958
+[2024-03-10_17:33:56] Train [8] Loss: clean 0.9759 poison 1.8675 total 1.4217 Tri 1.3946
+==========Test result on benign test dataset==========
+[2024-03-10_17:33:58] Top-1 correct / Total: 159/400, Top-1 accuracy: 0.3975, Top-3 correct / Total: 375/400, Top-3 accuracy: 0.9375 time: 44.05719542503357
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:33:58] Top-1 correct / Total: 316/400, Top-1 accuracy: 0.79, Top-3 correct / Total: 389/400, Top-3 accuracy: 0.9725, time: 44.05719542503357
+[2024-03-10_17:34:02] Train [9] Loss: clean 0.9589 poison 2.0786 total 1.5187 Tri 1.3681
+==========Test result on benign test dataset==========
+[2024-03-10_17:34:04] Top-1 correct / Total: 163/400, Top-1 accuracy: 0.4075, Top-3 correct / Total: 369/400, Top-3 accuracy: 0.9225 time: 50.501179456710815
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:34:04] Top-1 correct / Total: 303/400, Top-1 accuracy: 0.7575, Top-3 correct / Total: 389/400, Top-3 accuracy: 0.9725, time: 50.50217890739441
+[2024-03-10_17:34:09] Train [10] Loss: clean 0.9054 poison 2.2226 total 1.5640 Tri 1.4176
+==========Test result on benign test dataset==========
+[2024-03-10_17:34:16] Top-1 correct / Total: 142/400, Top-1 accuracy: 0.355, Top-3 correct / Total: 377/400, Top-3 accuracy: 0.9425 time: 62.80614948272705
+==========Test result on poisoned test dataset==========
+[2024-03-10_17:34:16] Top-1 correct / Total: 345/400, Top-1 accuracy: 0.8625, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 62.80714964866638
+[2024-03-10_17:34:20] Finetune [1] Loss: clean 1.3721 poison 0.6667 total 1.0194
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.01
+[2024-03-10_18:32:41] Train [1] Loss: clean 2.4395 poison 3.4235 total 2.9315 Tri 1.4363
+==========Test result on benign test dataset==========
+[2024-03-10_18:54:58] Top-1 correct / Total: 117/400, Top-1 accuracy: 0.2925, Top-3 correct / Total: 291/400, Top-3 accuracy: 0.7275 time: 2781.1318016052246
+==========Test result on poisoned test dataset==========
+[2024-03-10_18:54:58] Top-1 correct / Total: 130/400, Top-1 accuracy: 0.325, Top-3 correct / Total: 383/400, Top-3 accuracy: 0.9575, time: 2781.1318016052246
+[2024-03-10_19:38:25] Train [2] Loss: clean 2.2733 poison 2.7259 total 2.4996 Tri 1.4849
+==========Test result on benign test dataset==========
+[2024-03-10_19:51:41] Top-1 correct / Total: 117/400, Top-1 accuracy: 0.2925, Top-3 correct / Total: 314/400, Top-3 accuracy: 0.785 time: 6184.607011318207
+==========Test result on poisoned test dataset==========
+[2024-03-10_19:51:41] Top-1 correct / Total: 238/400, Top-1 accuracy: 0.595, Top-3 correct / Total: 295/400, Top-3 accuracy: 0.7375, time: 6184.608010530472
+[2024-03-10_20:18:13] Train [3] Loss: clean 1.5882 poison 1.9463 total 1.7672 Tri 1.4908
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.0001
+Total train samples: 4000
+Total test samples: 400
+Batch size: 128
+iteration every epoch: 31
+Initial learning rate: 0.0001
+Total train samples: 4000
+Total test samples: 400
+Batch size: 4
+iteration every epoch: 1000
+Initial learning rate: 0.0001
+[2024-03-10_21:10:18] Train [1] Loss: clean 1.0290 poison 3.1868 total 2.1079 Tri 1.4332
+==========Test result on benign test dataset==========
+[2024-03-10_21:23:31] Top-1 correct / Total: 183/400, Top-1 accuracy: 0.4575, Top-3 correct / Total: 349/400, Top-3 accuracy: 0.8725 time: 2486.8949267864227
+==========Test result on poisoned test dataset==========
+[2024-03-10_21:23:31] Top-1 correct / Total: 276/400, Top-1 accuracy: 0.69, Top-3 correct / Total: 397/400, Top-3 accuracy: 0.9925, time: 2486.8959267139435
+[2024-03-10_21:51:15] Train [2] Loss: clean 0.8476 poison 2.9706 total 1.9091 Tri 1.4184
+==========Test result on benign test dataset==========
+[2024-03-10_22:12:50] Top-1 correct / Total: 175/400, Top-1 accuracy: 0.4375, Top-3 correct / Total: 347/400, Top-3 accuracy: 0.8675 time: 5444.935863494873
+==========Test result on poisoned test dataset==========
+[2024-03-10_22:12:50] Top-1 correct / Total: 285/400, Top-1 accuracy: 0.7125, Top-3 correct / Total: 398/400, Top-3 accuracy: 0.995, time: 5444.937863349915
+[2024-03-10_22:52:29] Train [3] Loss: clean 0.8005 poison 2.8667 total 1.8336 Tri 1.4385
+==========Test result on benign test dataset==========
+[2024-03-10_23:06:37] Top-1 correct / Total: 162/400, Top-1 accuracy: 0.405, Top-3 correct / Total: 365/400, Top-3 accuracy: 0.9125 time: 8672.513693094254
+==========Test result on poisoned test dataset==========
+[2024-03-10_23:06:37] Top-1 correct / Total: 316/400, Top-1 accuracy: 0.79, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 8672.514692544937
+[2024-03-10_23:37:54] Train [4] Loss: clean 0.7853 poison 2.9096 total 1.8475 Tri 1.4273
+==========Test result on benign test dataset==========
+[2024-03-10_23:54:33] Top-1 correct / Total: 175/400, Top-1 accuracy: 0.4375, Top-3 correct / Total: 356/400, Top-3 accuracy: 0.89 time: 11547.935554027557
+==========Test result on poisoned test dataset==========
+[2024-03-10_23:54:33] Top-1 correct / Total: 280/400, Top-1 accuracy: 0.7, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 11547.93655371666
+[2024-03-11_00:34:33] Train [5] Loss: clean 0.7523 poison 2.9483 total 1.8503 Tri 1.4463
+==========Test result on benign test dataset==========
+[2024-03-11_01:54:11] Top-1 correct / Total: 163/400, Top-1 accuracy: 0.4075, Top-3 correct / Total: 374/400, Top-3 accuracy: 0.935 time: 18726.562046051025
+==========Test result on poisoned test dataset==========
+[2024-03-11_01:54:11] Top-1 correct / Total: 313/400, Top-1 accuracy: 0.7825, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 18726.57004880905
+[2024-03-11_02:05:59] Finetune [1] Loss: clean 1.1917 poison 0.8510 total 1.0214
+==========Test result on benign test dataset==========
+[2024-03-11_02:06:10] Top-1 correct / Total: 153/400, Top-1 accuracy: 0.3825, Top-3 correct / Total: 372/400, Top-3 accuracy: 0.93 time: 19444.987859249115
+==========Test result on poisoned test dataset==========
+[2024-03-11_02:06:10] Top-1 correct / Total: 334/400, Top-1 accuracy: 0.835, Top-3 correct / Total: 400/400, Top-3 accuracy: 1.0, time: 19444.988859415054
+[2024-03-11_02:06:10] Best Clean accuracy: 38.25 Best Backdoor accuracy: 83.5 time: 19445.102858304977
