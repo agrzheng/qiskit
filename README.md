@@ -30,35 +30,27 @@ The results will be shown below.
 | ------------------            |-------------------:|-------------:|
 |8-bit line classifier           | 88.0               | 83.33          |
 ***
+
 ### Hybrid quantum neural network
-##### Clean network
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+##### MNIST
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | x               | 90.0          |
-|4 class CIFAR10           | x               | 72.2          |
-|2 class CIFAR10 ResNet           | x               | 81.5          |
-##### BadNets 
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+|Clean Network           | x               | 90.0          |
+|BadNets           | 99.1               | 86.0          |
+##### 4 class CIFAR10
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|10 class MNIST           | 99.1               | 86.0          |
-|4 class CIFAR10           | 99.2               | 68.2          |
-##### Feature Collision
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+|Clean Network           | x               | 72.2          |
+|BadNets           | 99.2               | 68.2          |
+|Feature Collison           | 99.2               | 68.9          |
+|Bit Trojan           | 61               | 66.0          |
+|LIRA           | 83.5               | 38.25          |
+|Sleeper-Agents           | 14.7               | 73.7          |
+##### 2 class ResNet CIFAR10
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 99.2               | 68.9          |
-|2 class CIFAR10 ResNet           | 99.2               | 66.7          |
-##### BitTrojan
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 61               | 66.0          |
-##### LIRA
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 83.5               | 38.25          |
-##### Sleeper Agents
-| Dataset                       | Attack success rate (%)      | Clean test data (%)|
-| ------------------            |-------------------:|-------------:|
-|4 class CIFAR10           | 14.7               | 73.7          |
+|Clean Network           | x               | 81.5          |
+|Feature Collison           | 99.2               | 66.7          |
 ***
 ### Non-quantum neural network
 ##### Clean network
