@@ -41,6 +41,7 @@ The results will be shown below.
 |Bit Trojan           | 61               | 66.0          |
 |LIRA           | 83.5               | 38.25          |
 |Sleeper-Agents           | 14.7               | 73.7          |
+|WaNet           | 34.3               | 17.8          |
 ##### 2 class ResNet CIFAR10
 | Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
@@ -61,8 +62,9 @@ The results will be shown below.
 |BadNets           | 97.0               | 70.5          |
 |Feature Collison           | 10               | 67.8          |
 |Bit Trojan           | 93.5               | 65.0          |
-|LIRA           | 80.25               | 41.5          |
+|LIRA           | 61.0               | 58.5          |
 |Sleeper-Agents           | 27.2               | 75.8         |
+|WaNet          | 42.5               | 38.8         |
 ##### 2 class ResNet CIFAR10
 | Attack methods                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
