@@ -9,7 +9,8 @@
 ```
  To run the Feature Collison code ART is needed by
  `pip install adversarial-robustness-toolbox`
- To run LIRA and WaNet a modified version of [BackdoorBox](https://www.researchgate.net/publication/359439455_BackdoorBox_A_Python_Toolbox_for_Backdoor_Learning) is required in
+ 
+ To run LIRA and WaNet a modified version of [BackdoorBox](https://www.researchgate.net/publication/359439455_BackdoorBox_A_Python_Toolbox_for_Backdoor_Learning) is required on [mod-BackdoorBox](https://github.com/agrzheng/BackdoorBox)
 ### Quantum neural network
 ##### Clean network
 
