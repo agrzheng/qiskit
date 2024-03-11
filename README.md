@@ -13,7 +13,8 @@
  To run LIRA and WaNet a modified version of [BackdoorBox](https://www.researchgate.net/publication/359439455_BackdoorBox_A_Python_Toolbox_for_Backdoor_Learning) is required on [mod-BackdoorBox](https://github.com/agrzheng/BackdoorBox), download  it and put it in the same folder of this repository. The github page for the original BackdoorBox will be(https://github.com/THUYimingLi/BackdoorBox)
 
  To run the general benchmark on the exisiting models just run the notebooks named with benchmark.  
-**Note**: Hybrid networks may require a very long time to compute
+**Note**: Hybrid networks may require a very long time to compute.  
+The results will be shown below.
 ### Quantum neural network
 ##### Clean network
 
