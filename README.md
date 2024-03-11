@@ -33,6 +33,14 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |4 class CIFAR10           | 61               | 66.0          |
+##### LIRA
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|4 class CIFAR10           | 83.5               | 38.25          |
+##### Sleeper Agents
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|4 class CIFAR10           | 14.7               | 73.7          |
 ***
 ### Non-quantum neural network
 ##### Clean network
@@ -49,3 +57,11 @@
 | Dataset                       | Attack success rate (%)      | Clean test data (%)|
 | ------------------            |-------------------:|-------------:|
 |4 class CIFAR10           | 93.5               | 65.0          |
+##### LIRA
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|4 class CIFAR10           | 80.25               | 41.5          |
+##### Sleeper Agents
+| Dataset                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|4 class CIFAR10           | 27.2               | 75.825          |
