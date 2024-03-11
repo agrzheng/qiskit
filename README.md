@@ -1,7 +1,7 @@
 # Quantum neural network(testing and verification)
  This is a repository for a Benchmark on Backdoor and Data Poisoning Attacks on quantum neural networks and hybrid quantum neural networks
  The test has been made on 6 types of attacking methods, including pure data poisoning attacks, backdoored data poisoning attacks and non data
- poisoned backdoor attacks.
+ poisoned backdoor attacks. CIFAR10 is reduced to 4 classes to have a better training time as running quantum simulations will require large time.
  To run the codes qiskit and qiskit-machine-learning is needed by
  ```
  pip install qiskit
@@ -10,7 +10,7 @@
  To run the Feature Collison code ART is needed by
  `pip install adversarial-robustness-toolbox`
  
- To run LIRA and WaNet a modified version of [BackdoorBox](https://www.researchgate.net/publication/359439455_BackdoorBox_A_Python_Toolbox_for_Backdoor_Learning) is required on [mod-BackdoorBox](https://github.com/agrzheng/BackdoorBox)
+ To run LIRA and WaNet a modified version of [BackdoorBox](https://www.researchgate.net/publication/359439455_BackdoorBox_A_Python_Toolbox_for_Backdoor_Learning) is required on [mod-BackdoorBox](https://github.com/agrzheng/BackdoorBox) download  it and put it in the same folder of this repository
 ### Quantum neural network
 ##### Clean network
 
