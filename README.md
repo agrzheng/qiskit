@@ -47,6 +47,11 @@ The results will be shown below.
 | ------------------            |-------------------:|-------------:|
 |Clean Network           | x               | 81.5          |
 |Feature Collison           | 99.2               | 66.7          |
+##### Evasion Attacks
+| Attack methods                       | Attack success rate (%)      | Clean test data (%)|
+| ------------------            |-------------------:|-------------:|
+|FGM           | x               | 63.0          |
+|PGD           | 99.2               | 2.0          |
 ***
 ### Non-quantum neural network
 
